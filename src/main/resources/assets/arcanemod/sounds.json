@@ -1,0 +1,16 @@
+{
+  "gemstone_rise": {
+    "subtitles": "sounds.arcanemod.gemstone_rise",
+    "sounds": [
+      "arcanemod:gemstone_rise"
+    ]
+  },
+  "dynasties_dystopia": {
+    "sounds": [
+      {
+        "name": "arcanemod:dynasties_dystopia",
+        "stream": true
+      }
+    ]
+  }
+}

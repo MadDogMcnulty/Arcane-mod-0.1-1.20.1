@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "texture": "arcanemod:block/piltover_block",
+    "wall": "arcanemod:block/piltover_block"
+  }
+}

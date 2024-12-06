@@ -1,0 +1,9 @@
+{
+  "values": [
+    "arcanemod:piltover_block",
+    "arcanemod:gemstone_block",
+    "arcanemod:gemstone_ore",
+    "arcanemod:deepslate_gemstone_ore",
+    "arcanemod:sound_block"
+  ]
+}

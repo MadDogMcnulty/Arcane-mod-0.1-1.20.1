@@ -1,0 +1,61 @@
+{
+  "item.arcanemod.gemstone_shard": "Hex Crystal Shard",
+  "item.arcanemod.gemstone": "Unrefined Hex Crystal",
+  "item.arcanemod.refined_gemstone": "Refined Hextech Gemstone",
+  "item.arcanemod.shimmer_syringe": "Syringe of Shimmer",
+  "item.arcanemod.tainted_rotten_flesh": "Hex Tainted Rotten Flesh",
+  "item.arcanemod.tainted_seeds": "Hex Tainted Seeds",
+  "item.arcanemod.tainted_wheat": "Hex Tainted Wheat",
+  "block.arcanemod.tainted_flower": "Hex Tainted Flower",
+  "item.arcanemod.gemstone_shard_pile": "Pile of Hex Crystal Shards",
+  "item.arcanemod.world_rune_accelerate": "World Rune: Accelerate Slate",
+  "item.arcanemod.world_rune_precision": "World Rune: Precision Slate",
+  "item.arcanemod.world_rune_domination": "World Rune: Domination Slate",
+  "item.arcanemod.world_rune_sorcery": "World Rune: Sorcery Slate",
+  "item.arcanemod.world_rune_resolve": "World Rune: Resolve Slate",
+  "item.arcanemod.zdrive": "The Z-Drive",
+
+  "item.arcanemod.dynasties_dystopia_music_disc.desc": "Denzel Curry, Gizzle & Bren Joy - Dynasties & Dystopia (CC0)",
+  "item.arcanemod.dynasties_dystopia_music_disc": "Dynasties & Dystopia Music Disc",
+
+
+  "item.arcanemod.hextech_sword": "Hextech Sword",
+  "item.arcanemod.hextech_pickaxe": "Hextech Pickaxe",
+  "item.arcanemod.hextech_axe": "Hextech Axe",
+  "item.arcanemod.hextech_shovel": "Hextech Shovel",
+  "item.arcanemod.hextech_hoe": "Hextech Hoe",
+
+
+  "item.arcanemod.hextech_helmet": "Hextech helmet",
+  "item.arcanemod.hextech_chestplate": "Hextech chestplate",
+  "item.arcanemod.hextech_leggings": "Hextech leggings",
+  "item.arcanemod.hextech_boots": "Hextech boots",
+
+
+  "block.arcanemod.gemstone_block": "Hextech Block",
+  "block.arcanemod.piltover_block": "Piltover Block",
+  "block.arcanemod.piltover_stairs": "Piltover Stairs",
+  "block.arcanemod.piltover_slab": "Piltover Slab",
+  "block.arcanemod.piltover_pressure_plate": "Piltover Pressure Plate",
+  "block.arcanemod.piltover_button": "Piltover Button",
+  "block.arcanemod.piltover_fence": "Piltover Fence",
+  "block.arcanemod.piltover_fence_gate": "Piltover Fence Gate",
+  "block.arcanemod.piltover_wall": "Piltover Wall",
+  "block.arcanemod.piltover_door": "Piltover Door",
+  "block.arcanemod.piltover_trapdoor": "Piltover Trapdoor",
+  "block.arcanemod.gemstone_ore": "Hex Crystal Ore",
+  "block.arcanemod.deepslate_gemstone_ore": "Deepslate Hex Crystal Ore",
+  "block.arcanemod.sound_block": "Sound Block",
+
+  "tooltip.arcanemod.refined_gemstone.tooltip": "The perfected form of the raw Hex Crystal.",
+  "tooltip.arcanemod.world_rune_accelerate.tooltip": "A strange slate with a rune inscribed on it. It hums with the raw essence of progress.",
+  "tooltip.arcanemod.world_rune_domination.tooltip": "A strange slate with a rune inscribed on it. It hums with the raw essence of strength.",
+  "tooltip.arcanemod.world_rune_resolve.tooltip": "A strange slate with a rune inscribed on it. It hums with the raw essence of willpower.",
+  "tooltip.arcanemod.world_rune_sorcery.tooltip": "A strange slate with a rune inscribed on it. It hums with the raw essence of trickery.",
+  "tooltip.arcanemod.world_rune_precision.tooltip": "A strange slate with a rune inscribed on it. It hums with the raw essence of delicacy.",
+
+
+  "sounds.arcanemod.gemstone_rise": "Arcane whirring",
+
+  "creativetab.arcane_tab": "Arcane Mod"
+}

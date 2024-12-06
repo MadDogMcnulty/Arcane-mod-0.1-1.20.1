@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "arcanemod:block/piltover_block",
+    "side": "arcanemod:block/piltover_block",
+    "top": "arcanemod:block/piltover_block"
+  }
+}

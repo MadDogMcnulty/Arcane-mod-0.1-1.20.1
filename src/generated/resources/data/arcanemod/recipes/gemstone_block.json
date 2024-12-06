@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "arcanemod:gemstone"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GGG",
+    "GGG"
+  ],
+  "result": {
+    "item": "arcanemod:gemstone_block"
+  },
+  "show_notification": true
+}

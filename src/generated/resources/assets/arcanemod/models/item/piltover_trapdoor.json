@@ -1,0 +1,6 @@
+{
+  "parent": "arcanemod:block/piltover_trapdoor_bottom",
+  "textures": {
+    "texture": "arcanemod:block/piltover_trapdoor"
+  }
+}

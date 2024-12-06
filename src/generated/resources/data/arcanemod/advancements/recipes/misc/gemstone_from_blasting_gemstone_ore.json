@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gemstone_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "arcanemod:gemstone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arcanemod:gemstone_from_blasting_gemstone_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gemstone_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arcanemod:gemstone_from_blasting_gemstone_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,6 @@
+// 1.20.2	2024-12-06T19:48:17.5028293	Global Loot Modifiers : arcanemod
+19da8918221d687666780fc00d3254e60c1c532e data/arcanemod/loot_modifiers/shimmer_syringe_from_mineshaft.json
+3eaf16ce53db1afc046f5863c1adbd15a775abec data/arcanemod/loot_modifiers/shimmer_syringe_from_village.json
+67a614c54e67dbfc76a81075f0b85ccf69684086 data/arcanemod/loot_modifiers/tainted_flesh_from_zombie.json
+0de13ed56064dfc4b5675c81fc688a9863b4ff26 data/arcanemod/loot_modifiers/tainted_seeds_from_grass.json
+8ab54b7afad5f5f17e117ade950c54b7167391be data/forge/loot_modifiers/global_loot_modifiers.json

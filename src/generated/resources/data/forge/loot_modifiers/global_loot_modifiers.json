@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "arcanemod:tainted_flesh_from_zombie",
+    "arcanemod:shimmer_syringe_from_mineshaft",
+    "arcanemod:tainted_seeds_from_grass",
+    "arcanemod:shimmer_syringe_from_village"
+  ],
+  "replace": false
+}

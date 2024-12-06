@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcanemod:item/dynasties_dystopia_music_disc"
+  }
+}

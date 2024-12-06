@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "arcanemod:block/piltover_pressure_plate"
+    },
+    "powered=true": {
+      "model": "arcanemod:block/piltover_pressure_plate_down"
+    }
+  }
+}

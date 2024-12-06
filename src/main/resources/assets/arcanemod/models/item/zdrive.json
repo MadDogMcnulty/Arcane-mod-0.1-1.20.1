@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+      "parent": "arcanemod:item/zdrive_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "arcanemod:item/zdrive_2d"
+    },
+    "ground": {
+      "parent": "arcanemod:item/zdrive_2d"
+    },
+    "fixed": {
+      "parent": "arcanemod:item/zdrive_2d"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "arcanemod:block/piltover_slab"
+    },
+    "type=double": {
+      "model": "arcanemod:block/piltover_block"
+    },
+    "type=top": {
+      "model": "arcanemod:block/piltover_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+// 1.20.2	2024-12-04T19:05:44.2045147	Tags for minecraft:block mod id arcanemod
+c851d412fcc2a6fc70b8d50cb07e4e90022e78cf data/arcanemod/tags/blocks/needs_hextech_tool.json
+0145e1eb9bc0e89549e11a8011b36c979a3b2b41 data/arcanemod/tags/blocks/piltover_block_type.json
+ffb26377d7e06844dd06500ef50261f77810d232 data/minecraft/tags/blocks/fences.json
+f08397aa4915b3fd7ce5557636440699f127a263 data/minecraft/tags/blocks/fence_gates.json
+78954f9a4758406573fb65258a0ae92ffe4e12ce data/minecraft/tags/blocks/mineable/pickaxe.json
+2429a98108343c6892366e421aca926fada3a9a4 data/minecraft/tags/blocks/needs_iron_tool.json
+39e94270c34585f94aadeb0ca58cdb5d494ba974 data/minecraft/tags/blocks/walls.json
