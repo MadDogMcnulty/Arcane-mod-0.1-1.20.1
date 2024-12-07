@@ -33,6 +33,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.PILTOVER_BLOCK.get());
         this.dropSelf(ModBlocks.GEMSTONE_BLOCK.get());
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.GEMSTONE_REFINERY.get());
 
         this.add(ModBlocks.GEMSTONE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.GEMSTONE_ORE.get(), ModItems.GEMSTONE_SHARD.get()));

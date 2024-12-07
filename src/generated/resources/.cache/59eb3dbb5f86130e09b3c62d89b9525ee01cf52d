@@ -1,7 +1,8 @@
-// 1.20.2	2024-12-06T22:20:27.4427097	Loot Tables
+// 1.20.1	2024-12-07T21:03:17.8144822	Loot Tables
 b127326e3a2203055975fc16962275d4f8d4f72f data/arcanemod/loot_tables/blocks/deepslate_gemstone_ore.json
 7febcd99f0f3ec57c54291534c68a1025424327f data/arcanemod/loot_tables/blocks/gemstone_block.json
 aff020afbd6fa6274608c54837a65053466bef13 data/arcanemod/loot_tables/blocks/gemstone_ore.json
+076f0b24985c110e4e8bbd93b49f90e023133759 data/arcanemod/loot_tables/blocks/gemstone_refinery.json
 d0e04fb3eb5e5cfdd00219218918726bc2f710ec data/arcanemod/loot_tables/blocks/piltover_block.json
 2d11b6f1699d540ddd5dd4aeaa4bfff4f465aa0e data/arcanemod/loot_tables/blocks/piltover_button.json
 854500f844e78d583c459da596ec6a7a7d2261c4 data/arcanemod/loot_tables/blocks/piltover_door.json

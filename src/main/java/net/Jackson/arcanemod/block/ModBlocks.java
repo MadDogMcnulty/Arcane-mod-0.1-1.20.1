@@ -1,6 +1,7 @@
 package net.Jackson.arcanemod.block;
 
 import net.Jackson.arcanemod.ArcaneMod;
+import net.Jackson.arcanemod.block.custom.GemstoneRefineryBlock;
 import net.Jackson.arcanemod.block.custom.SoundBlock;
 import net.Jackson.arcanemod.block.custom.TaintedWheatCropBlock;
 import net.Jackson.arcanemod.item.ModItems;
@@ -77,6 +78,12 @@ public class ModBlocks {
             () -> new FlowerPotBlock(() -> (FlowerPotBlock) Blocks.FLOWER_POT, ModBlocks.TAINTED_FLOWER,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
+
+
+    //Machines
+
+    public static final RegistryObject<Block> GEMSTONE_REFINERY = registerBlock("gemstone_refinery",
+            () -> new GemstoneRefineryBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
 

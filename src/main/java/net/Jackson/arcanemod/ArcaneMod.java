@@ -2,23 +2,24 @@ package net.Jackson.arcanemod;
 
 import com.mojang.logging.LogUtils;
 import net.Jackson.arcanemod.block.ModBlocks;
+import net.Jackson.arcanemod.block.entity.ModBlockEntities;
 import net.Jackson.arcanemod.item.ModCreativeModeTabs;
 import net.Jackson.arcanemod.item.ModItems;
 import net.Jackson.arcanemod.loot.ModLootModifiers;
+import net.Jackson.arcanemod.screen.GemstoneRefineryScreen;
+import net.Jackson.arcanemod.screen.ModMenuTypes;
 import net.Jackson.arcanemod.sound.ModSounds;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
-import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -43,6 +44,8 @@ public class ArcaneMod
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
 
         ModSounds.register(modEventBus);
@@ -85,7 +88,7 @@ public class ArcaneMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            
+            MenuScreens.register(ModMenuTypes.GEMSTONE_REFINING_MENU.get(), GemstoneRefineryScreen::new);
         }
     }
 }

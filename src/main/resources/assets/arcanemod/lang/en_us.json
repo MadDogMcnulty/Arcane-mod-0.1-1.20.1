@@ -47,6 +47,8 @@
   "block.arcanemod.deepslate_gemstone_ore": "Deepslate Hex Crystal Ore",
   "block.arcanemod.sound_block": "Sound Block",
 
+  "block.arcanemod.gemstone_refinery": "Gemstone Refinery",
+
   "tooltip.arcanemod.refined_gemstone.tooltip": "The perfected form of the raw Hex Crystal.",
   "tooltip.arcanemod.world_rune_accelerate.tooltip": "A strange slate with a rune inscribed on it. It hums with the raw essence of progress.",
   "tooltip.arcanemod.world_rune_domination.tooltip": "A strange slate with a rune inscribed on it. It hums with the raw essence of strength.",

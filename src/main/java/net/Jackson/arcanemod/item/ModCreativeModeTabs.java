@@ -37,6 +37,8 @@ public class ModCreativeModeTabs {
                       pOutput.accept(ModBlocks.PILTOVER_PRESSURE_PLATE.get());
                       pOutput.accept(ModBlocks.PILTOVER_SLAB.get());
 
+                    //Machines
+                      pOutput.accept(ModBlocks.GEMSTONE_REFINERY.get());
 
                       pOutput.accept(ModItems.ZDRIVE.get());
                       pOutput.accept(ModItems.GEMSTONE.get());
@@ -76,6 +78,8 @@ public class ModCreativeModeTabs {
 
                       //Music Discs
                       pOutput.accept(ModItems.DYNASTIES_DYSTOPIA_MUSIC_DISC.get());
+
+
 
 
 

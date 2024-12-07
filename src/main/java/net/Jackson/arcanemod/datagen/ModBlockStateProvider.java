@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -29,30 +30,26 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         //custom blocks
         blockWithItem(ModBlocks.SOUND_BLOCK);
+        simpleBlockWithItem(ModBlocks.GEMSTONE_REFINERY.get(),
+            new ModelFile.UncheckedModelFile(modLoc("block/gemstone_refinery")));
 
         stairsBlock(((StairBlock) ModBlocks.PILTOVER_STAIRS.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()));
-
         slabBlock(((SlabBlock) ModBlocks.PILTOVER_SLAB.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()),
                 blockTexture(ModBlocks.PILTOVER_BLOCK.get()));
-
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.PILTOVER_PRESSURE_PLATE.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()));
-
         buttonBlock(((ButtonBlock) ModBlocks.PILTOVER_BUTTON.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()));
-
         wallBlock(((WallBlock) ModBlocks.PILTOVER_WALL.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()));
-
         fenceBlock(((FenceBlock) ModBlocks.PILTOVER_FENCE.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()));
-
         fenceGateBlock(((FenceGateBlock) ModBlocks.PILTOVER_FENCE_GATE.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()));
-
         doorBlockWithRenderType(((DoorBlock) ModBlocks.PILTOVER_DOOR.get()), modLoc("block/piltover_door_bottom"),
                 modLoc("block/piltover_door_top"), "cutout");
-
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.PILTOVER_TRAPDOOR.get()),
                 modLoc("block/piltover_trapdoor"), true, "cutout");
 
+
         makeTaintedWheatCrop((CropBlock) ModBlocks.TAINTED_WHEAT_CROP.get(),
                 "tainted_wheat_stage", "tainted_wheat_stage");
+
 
         simpleBlockWithItem(ModBlocks.TAINTED_FLOWER.get(), models().cross(blockTexture(ModBlocks.TAINTED_FLOWER.get()).getPath(),
                 blockTexture(ModBlocks.TAINTED_FLOWER.get())).renderType("cutout"));

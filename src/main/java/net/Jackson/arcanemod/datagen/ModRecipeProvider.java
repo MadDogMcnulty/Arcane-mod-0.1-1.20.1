@@ -51,12 +51,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("GGG")
                 .define('G', ModItems.GEMSTONE.get())
                 .unlockedBy(getHasName(ModItems.GEMSTONE.get()), has(ModItems.GEMSTONE.get()))
-                .save(recipeOutput);
+                .save(recipeOutput, ArcaneMod.MOD_ID + ":gemstone_block_from_gemstones");
+
         // gemstones from gemstone block
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GEMSTONE.get(), 9)
                 .requires(ModBlocks.GEMSTONE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.GEMSTONE_BLOCK.get()), has(ModBlocks.GEMSTONE_BLOCK.get()))
-                .save(recipeOutput);
+                .save(recipeOutput, ArcaneMod.MOD_ID + ":gemstones_from_gemstone_block");
+
+        // gemstone from shards
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GEMSTONE.get())
+                .pattern("HHH")
+                .pattern("HHH")
+                .pattern("HHH")
+                .define('H', ModItems.GEMSTONE_SHARD.get())
+                .unlockedBy(getHasName(ModItems.GEMSTONE.get()), has(ModItems.GEMSTONE.get()))
+                .save(recipeOutput, ArcaneMod.MOD_ID + ":gemstone_from_shards");
 
 
     }

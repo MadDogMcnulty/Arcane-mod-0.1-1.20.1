@@ -1,7 +1,8 @@
-// 1.20.2	2024-12-06T22:20:27.4447094	Block States: arcanemod
+// 1.20.1	2024-12-07T21:17:37.4989365	Block States: arcanemod
 8c7f0303906d47e307f45d2516a942bbff3e28bb assets/arcanemod/blockstates/deepslate_gemstone_ore.json
 f244e20cad85d1c67b3e97d54543f294fd395cd3 assets/arcanemod/blockstates/gemstone_block.json
 0011a03a53124afd12a0ce98915a7817cb0e83ef assets/arcanemod/blockstates/gemstone_ore.json
+c489576d163d935dd0a910ecf80021164aaff5b8 assets/arcanemod/blockstates/gemstone_refinery.json
 68d8a9cf1f71d42e91770cb3c571b05801744e32 assets/arcanemod/blockstates/piltover_block.json
 5d048917d9ccd060cc5030f9c77ade55c401d941 assets/arcanemod/blockstates/piltover_button.json
 8756de66d96edd1f14585eeb82f8f5616b01e815 assets/arcanemod/blockstates/piltover_door.json
@@ -61,6 +62,7 @@ a99e6f02a3ca5fd9ff7c9b659dcf2fff57d82523 assets/arcanemod/models/block/tainted_w
 8520f75e53432c618d0d428b5a54f4347ac4dab7 assets/arcanemod/models/item/deepslate_gemstone_ore.json
 aa47530b4f8b8c4f28d09d51c0c2c73362cff259 assets/arcanemod/models/item/gemstone_block.json
 cfb4676e19ff58febb70c077492b9c7bd2315f5a assets/arcanemod/models/item/gemstone_ore.json
+b8e7cbafc283cf46bb0442898e0fbcf1fed3d333 assets/arcanemod/models/item/gemstone_refinery.json
 430353fb310b102d76193e502b308749f1ef71e3 assets/arcanemod/models/item/piltover_block.json
 01741b01a0012d2f4f9d29fbf7b42f6547faa92a assets/arcanemod/models/item/potted_tainted_flower.json
 1150ff084c0005c2036f7b97284fc186ef63a6bb assets/arcanemod/models/item/sound_block.json
