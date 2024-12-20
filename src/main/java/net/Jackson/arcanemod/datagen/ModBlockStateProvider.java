@@ -30,8 +30,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         //custom blocks
         blockWithItem(ModBlocks.SOUND_BLOCK);
+
         simpleBlockWithItem(ModBlocks.GEMSTONE_REFINERY.get(),
             new ModelFile.UncheckedModelFile(modLoc("block/gemstone_refinery")));
+
+        simpleBlockWithItem(ModBlocks.HEXCORE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/hexcore")));
 
         stairsBlock(((StairBlock) ModBlocks.PILTOVER_STAIRS.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()));
         slabBlock(((SlabBlock) ModBlocks.PILTOVER_SLAB.get()), blockTexture(ModBlocks.PILTOVER_BLOCK.get()),

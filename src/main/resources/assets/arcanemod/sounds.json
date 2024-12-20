@@ -12,5 +12,21 @@
         "stream": true
       }
     ]
+  },
+  "ma_meilleuere": {
+    "sounds": [
+      {
+        "name": "arcanemod:ma_meilleuere",
+        "stream": true
+      }
+    ]
+  },
+  "playground": {
+    "sounds": [
+      {
+        "name": "arcanemod:playground",
+        "stream": true
+      }
+    ]
   }
 }

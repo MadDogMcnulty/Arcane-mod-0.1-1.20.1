@@ -33,10 +33,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.TAINTED_WHEAT.get());
 
         this.tag(ItemTags.MUSIC_DISCS)
-                .add(ModItems.DYNASTIES_DYSTOPIA_MUSIC_DISC.get());
+                .add(ModItems.DYNASTIES_DYSTOPIA_MUSIC_DISC.get())
+                .add(ModItems.MA_MEILLEURE_MUSIC_DISC.get())
+                .add(ModItems.PLAYGROUND_MUSIC_DISC.get());
 
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
-                .add(ModItems.DYNASTIES_DYSTOPIA_MUSIC_DISC.get());
+                .add(ModItems.DYNASTIES_DYSTOPIA_MUSIC_DISC.get())
+                .add(ModItems.MA_MEILLEURE_MUSIC_DISC.get())
+                .add(ModItems.PLAYGROUND_MUSIC_DISC.get());
 
 
     }

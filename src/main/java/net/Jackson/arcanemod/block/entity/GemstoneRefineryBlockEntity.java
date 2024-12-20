@@ -113,7 +113,7 @@ public class GemstoneRefineryBlockEntity extends BlockEntity implements MenuProv
     @Override
     protected void saveAdditional(CompoundTag pTag) {
         pTag.put("inventory", itemHandler.serializeNBT());
-        pTag.putInt("gemstone_refinery.progress", progress);
+        pTag.putInt("hexcore_prorgress", progress);
         super.saveAdditional(pTag);
     }
 

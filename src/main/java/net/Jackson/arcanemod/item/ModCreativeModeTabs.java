@@ -39,6 +39,7 @@ public class ModCreativeModeTabs {
 
                     //Machines
                       pOutput.accept(ModBlocks.GEMSTONE_REFINERY.get());
+                      pOutput.accept(ModBlocks.HEXCORE.get());
 
                       pOutput.accept(ModItems.ZDRIVE.get());
                       pOutput.accept(ModItems.GEMSTONE.get());
@@ -78,6 +79,8 @@ public class ModCreativeModeTabs {
 
                       //Music Discs
                       pOutput.accept(ModItems.DYNASTIES_DYSTOPIA_MUSIC_DISC.get());
+                      pOutput.accept(ModItems.MA_MEILLEURE_MUSIC_DISC.get());
+                      pOutput.accept(ModItems.PLAYGROUND_MUSIC_DISC.get());
 
 
 

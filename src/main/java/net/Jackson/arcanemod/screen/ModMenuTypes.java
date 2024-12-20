@@ -17,6 +17,10 @@ public class ModMenuTypes {
     public static final RegistryObject<MenuType<GemstoneRefineryMenu>> GEMSTONE_REFINING_MENU =
             registerMenuType("gemstone_refining_menu", GemstoneRefineryMenu::new);
 
+    public static final RegistryObject<MenuType<HexcoreMenu>> HEXCORE_MENU =
+            registerMenuType("hexcore_menu", HexcoreMenu::new);
+
+
     private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(String name, IContainerFactory<T> factory) {
         return MENUS.register(name, () -> IForgeMenuType.create(factory));
     }

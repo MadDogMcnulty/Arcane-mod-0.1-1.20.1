@@ -1,9 +1,7 @@
 package net.Jackson.arcanemod.block;
 
 import net.Jackson.arcanemod.ArcaneMod;
-import net.Jackson.arcanemod.block.custom.GemstoneRefineryBlock;
-import net.Jackson.arcanemod.block.custom.SoundBlock;
-import net.Jackson.arcanemod.block.custom.TaintedWheatCropBlock;
+import net.Jackson.arcanemod.block.custom.*;
 import net.Jackson.arcanemod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -84,11 +82,14 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GEMSTONE_REFINERY = registerBlock("gemstone_refinery",
             () -> new GemstoneRefineryBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+    public static final RegistryObject<Block> HEXCORE = registerBlock("hexcore",
+            () -> new HexcoreBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
 
 
 
+// Hi for when you open this up again - you're just restarting kaupenjoe's tutorial on it with the hexcore in mind.
 
 
 

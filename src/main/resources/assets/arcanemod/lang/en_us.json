@@ -15,8 +15,12 @@
   "item.arcanemod.world_rune_resolve": "World Rune: Resolve Slate",
   "item.arcanemod.zdrive": "The Z-Drive",
 
-  "item.arcanemod.dynasties_dystopia_music_disc.desc": "Denzel Curry, Gizzle & Bren Joy - Dynasties & Dystopia (CC0)",
+  "item.arcanemod.dynasties_dystopia_music_disc.desc": "Denzel Curry, Gizzle & Bren Joy - Dynasties & Dystopia",
   "item.arcanemod.dynasties_dystopia_music_disc": "Dynasties & Dystopia Music Disc",
+  "item.arcanemod.ma_meilleuere_music_disc.desc": "Stromae, Pomme - Ma Meilleure Ennemie",
+  "item.arcanemod.ma_meilleuere_music_disc": "Ma Meilleure Music Disc",
+  "item.arcanemod.playground_music_disc.desc": "Bea Miller - Playground",
+  "item.arcanemod.playground_music_disc": "Playground Music Disc",
 
 
   "item.arcanemod.hextech_sword": "Hextech Sword",
@@ -48,6 +52,7 @@
   "block.arcanemod.sound_block": "Sound Block",
 
   "block.arcanemod.gemstone_refinery": "Gemstone Refinery",
+  "block.arcanemod.hexcore": "Hexcore",
 
   "tooltip.arcanemod.refined_gemstone.tooltip": "The perfected form of the raw Hex Crystal.",
   "tooltip.arcanemod.world_rune_accelerate.tooltip": "A strange slate with a rune inscribed on it. It hums with the raw essence of progress.",

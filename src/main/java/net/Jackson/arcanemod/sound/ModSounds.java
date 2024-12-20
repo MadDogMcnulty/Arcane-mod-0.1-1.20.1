@@ -21,6 +21,8 @@ public class ModSounds {
 //            ModSounds.Blocksounds);
 
     public static final RegistryObject<SoundEvent> DYNASTIES_DYSTOPIA = registerSoundEvents("dynasties_dystopia");
+    public static final RegistryObject<SoundEvent> MA_MEILLEUERE = registerSoundEvents("ma_meilleuere");
+    public static final RegistryObject<SoundEvent> PLAYGROUND = registerSoundEvents("playground");
 
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {

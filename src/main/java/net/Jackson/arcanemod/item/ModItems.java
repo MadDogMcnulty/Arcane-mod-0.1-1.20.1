@@ -43,9 +43,15 @@ public class ModItems {
     public static final RegistryObject<Item> ZDRIVE = ITEMS.register("zdrive",
             () -> new Item(new Item.Properties().stacksTo(1)));
 
+
     //Music Discs
     public static final RegistryObject<Item> DYNASTIES_DYSTOPIA_MUSIC_DISC = ITEMS.register("dynasties_dystopia_music_disc",
             () -> new RecordItem(6, ModSounds.DYNASTIES_DYSTOPIA, new Item.Properties().stacksTo(1),3096));
+    public static final RegistryObject<Item> MA_MEILLEURE_MUSIC_DISC = ITEMS.register("ma_meilleuere_music_disc",
+            () -> new RecordItem(6, ModSounds.MA_MEILLEUERE, new Item.Properties().stacksTo(1),2960));
+    public static final RegistryObject<Item> PLAYGROUND_MUSIC_DISC = ITEMS.register("playground_music_disc",
+            () -> new RecordItem(6, ModSounds.PLAYGROUND, new Item.Properties().stacksTo(1),4600));
+
 
     //Hextech Tools
     public static final RegistryObject<Item> HEXTECH_SWORD = ITEMS.register("hextech_sword",

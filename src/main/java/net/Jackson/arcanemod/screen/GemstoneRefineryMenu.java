@@ -11,12 +11,11 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.SlotItemHandler;
-import org.jetbrains.annotations.Nullable;
 
 public class GemstoneRefineryMenu extends AbstractContainerMenu {
 
 
-    public final GemstoneRefineryBlockEntity blockEntity;
+    public final GemstoneRefineryBlockEntity GemstoneblockEntity;
     private final Level level;
     private final ContainerData data;
 
@@ -27,14 +26,14 @@ public class GemstoneRefineryMenu extends AbstractContainerMenu {
     public GemstoneRefineryMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data) {
         super(ModMenuTypes.GEMSTONE_REFINING_MENU.get(), pContainerId);
         checkContainerSize(inv,2);
-        blockEntity = ((GemstoneRefineryBlockEntity) entity);
+        GemstoneblockEntity = ((GemstoneRefineryBlockEntity) entity);
         this.level = inv.player.level();
         this.data = data;
 
         addPlayerInventory(inv);
         addPlayerHotbar(inv);
 
-        this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
+        this.GemstoneblockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler -> {
             this.addSlot(new SlotItemHandler(iItemHandler, 0, 56, 17));
             this.addSlot(new SlotItemHandler(iItemHandler, 1, 56, 53));
         });
@@ -109,7 +108,7 @@ public class GemstoneRefineryMenu extends AbstractContainerMenu {
 
     @Override
     public boolean stillValid(Player pPlayer) {
-        return stillValid(ContainerLevelAccess.create(level,blockEntity.getBlockPos()),
+        return stillValid(ContainerLevelAccess.create(level, GemstoneblockEntity.getBlockPos()),
         pPlayer, ModBlocks.GEMSTONE_REFINERY.get());
     }
     private void addPlayerInventory(Inventory playerInventory) {

@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-07T21:03:17.8164821	Item Models: arcanemod
+// 1.20.1	2024-12-20T14:15:12.1103628	Item Models: arcanemod
 44f5927edb14a75ac8625aac49055e421bf09bb7 assets/arcanemod/models/item/dynasties_dystopia_music_disc.json
 d6748be17114192890ec068e623a70fa0c72e8f4 assets/arcanemod/models/item/gemstone.json
 45acbe78448297661b34ba671fbeb35e9e3aae38 assets/arcanemod/models/item/gemstone_shard.json
@@ -8,6 +8,7 @@ d7004eddc02a3b05e0ba0f39a5c01c33c45f81ff assets/arcanemod/models/item/hextech_ho
 b5cd16421da36be40bc0551f1d5d5bea51ac40d5 assets/arcanemod/models/item/hextech_pickaxe.json
 ba698d3fa1c72ea1b2b3d09584449f3893121371 assets/arcanemod/models/item/hextech_shovel.json
 6d8073ae7800d4b588802f6e250d95ccb75a7b56 assets/arcanemod/models/item/hextech_sword.json
+55b3ea15b44bfcab803fd211fc437f84fc79cae1 assets/arcanemod/models/item/ma_meilleuere_music_disc.json
 c0d409e8e2fc61847527f5f16faf99b5073a09fd assets/arcanemod/models/item/piltover_button.json
 991bca45d3944e51842c94d1c2ab1392f70ceb87 assets/arcanemod/models/item/piltover_door.json
 56eadf3e34cf7420ddaabfef62db2c1df4007043 assets/arcanemod/models/item/piltover_fence.json
@@ -17,6 +18,7 @@ b002967266825557865a32cb8cad563ca8d9df2a assets/arcanemod/models/item/piltover_s
 da14688af62b73ebb7fd2f736c0445f0fcb813b3 assets/arcanemod/models/item/piltover_stairs.json
 f6c9b9042cced2e6fd78e28748aad16ccd4bf45f assets/arcanemod/models/item/piltover_trapdoor.json
 fc39549fa5816ef6b0c1a6fba6758a0c8752bd3f assets/arcanemod/models/item/piltover_wall.json
+214b3d5b39be0bf0be69b0a397f5698ccb87c7f0 assets/arcanemod/models/item/playground_music_disc.json
 d808be89f9c2e28e022b8f572e83171c746d3784 assets/arcanemod/models/item/refined_gemstone.json
 b798cc51b30fe96f5e9cf04b5db5370792473290 assets/arcanemod/models/item/shimmer_syringe.json
 730466ff1adcd584b2e8d14b42bf01bc872f055f assets/arcanemod/models/item/tainted_flower.json

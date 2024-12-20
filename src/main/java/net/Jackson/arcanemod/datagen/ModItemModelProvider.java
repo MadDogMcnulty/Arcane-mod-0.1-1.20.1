@@ -37,6 +37,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WORLD_RUNE_SORCERY);
 
         simpleItem(ModItems.DYNASTIES_DYSTOPIA_MUSIC_DISC);
+        simpleItem(ModItems.MA_MEILLEURE_MUSIC_DISC);
+        simpleItem(ModItems.PLAYGROUND_MUSIC_DISC);
 
         simpleBlockItem(ModBlocks.PILTOVER_DOOR);
 

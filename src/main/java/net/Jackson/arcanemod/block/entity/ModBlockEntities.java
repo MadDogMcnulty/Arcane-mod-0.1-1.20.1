@@ -19,6 +19,14 @@ public class ModBlockEntities {
                     BlockEntityType.Builder.of(GemstoneRefineryBlockEntity::new,
                             ModBlocks.GEMSTONE_REFINERY.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<HexcoreBlockEntity>> HEXCORE_BE =
+            BLOCK_ENTITIES.register("hexcore_be", () ->
+                    BlockEntityType.Builder.of(HexcoreBlockEntity::new,
+                            ModBlocks.HEXCORE.get()).build(null));
+
+
+
+
 
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
